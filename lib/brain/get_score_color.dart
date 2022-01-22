@@ -6,7 +6,7 @@ get_score_color(double score) {
   if (score < 0.4) {
     return Colors.red;
   }
-  if (score >= 0.4  && score < 7  ) {
+  if (score >= 0.4  && score < 0.7  ) {
     return Colors.yellow;
   }
 
