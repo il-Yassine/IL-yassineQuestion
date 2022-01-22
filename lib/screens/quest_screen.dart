@@ -147,8 +147,8 @@ class _QuestScreenState extends State<QuestScreen> {
         onTap: () {
           setState(() {
             if (indexQuestion >= 5) {
-              indexQuestion = 0;
-              if (color4 == selectedQuestionColor) {
+             
+              if (color1 == selectedQuestionColor) {
                 ChoixReponse(indexQuestion, 0);
               }
               Color coul = get_score_color(Scor);
